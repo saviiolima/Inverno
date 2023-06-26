@@ -110,7 +110,7 @@ footer{
 
 footer p{
     text-align: center;
-    color: black;
+    color: #000000;
     cursor: text;
 }
 
@@ -129,4 +129,10 @@ footer p{
 
 .nomes a{
     color: #ffffff;
+}
+
+img:hover {
+    transform: scale(115%);
+    filter: blur(0.5px);
+    cursor: pointer;
 }
